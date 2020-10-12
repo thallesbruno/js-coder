@@ -1,3 +1,5 @@
+
+//escopo: até onde a variável é visível
 {
     {
         {
