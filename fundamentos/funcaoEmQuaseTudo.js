@@ -4,7 +4,9 @@ class Produto{} //artifício de sintaxe
 console.log(typeof Produto)
 
 function testando(){
-    console.log('Função funcionando!')
+    console.log('Função executando!')
 }
-console.log(typeof testando)
+
 testando()
+
+console.log(typeof testando)
