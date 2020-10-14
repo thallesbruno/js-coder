@@ -10,9 +10,9 @@ console.log('08)', 3 >= 2)
 
 const d1 = new Date(0)
 const d2 = new Date(0)
-console.log('09)', d1 === d2)
-console.log('10)', d1 == d2)
-console.log('11)', d1.getTime() === d2.getTime())
+console.log('09)', d1 === d2) //estritamente igual
+console.log('10)', d1 == d2) //ignora a questão dos tipos
+console.log('11)', d1.getTime() === d2.getTime()) 
 
 console.log('12)', undefined == null)
 console.log('13)', undefined === null)
