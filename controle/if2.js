@@ -9,7 +9,7 @@ teste1(6)
 teste1(8)
 
 function teste2(num) {
-    if (num > 7); { //cuidado com ;, não usar com estrutura de controle
+    if (num > 7); { //cuidado com ; não usar com estrutura de controle
         console.log(num)
     }
 }
